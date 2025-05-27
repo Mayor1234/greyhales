@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-pry: #cc6518;
+  --color-button: #994c12;
+  --color-background: #e68c47;
+
+  --font-poppins: 'Poppins', sans-serif;
+}
