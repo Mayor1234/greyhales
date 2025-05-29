@@ -17,19 +17,20 @@ export default function AboutSection() {
         {/* Photo Layout */}
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="/images/mini1.jpg"
+            src="/images/living_room.JPG
+            "
             alt="Living room styled by GreyHales"
-            className="rounded-2xl shadow-lg object-cover h-52 w-full"
+            className="rounded-2xl shadow-lg object-cover object-center h-52 w-full"
           />
           <img
             src="/images/mini2.jpg"
             alt="Minimalist kitchen space"
-            className="rounded-2xl shadow-lg object-cover h-52 w-full"
+            className="rounded-2xl shadow-lg object-cover object-center  h-52 w-full"
           />
           <img
-            src="/images/mini3.jpg"
+            src="/images/bathromm2.jpg"
             alt="Elegant bathroom decor"
-            className="rounded-2xl shadow-lg object-cover h-58 w-full col-span-2"
+            className="rounded-2xl shadow-lg object-cover object-center h-58 w-full col-span-2"
           />
         </div>
       </div>

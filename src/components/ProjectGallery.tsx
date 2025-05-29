@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-import 'yet-another-react-lightbox/styles.css';
 import Lightbox from 'yet-another-react-lightbox';
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
 import Captions from 'yet-another-react-lightbox/plugins/captions';
@@ -14,23 +13,23 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: 'Modern Living Room',
+    title: 'Modern Waiting Room',
     category: 'Living Room',
-    image: '/images/living-room.jpg',
+    image: '/images/waiting_room.jpg',
     description: 'A contemporary cozy design.',
   },
   {
     id: 2,
-    title: 'Minimalist Kitchen',
-    category: 'Kitchen',
-    image: '/images/kitchen.jpg',
+    title: 'Minimalist Room',
+    category: 'Room',
+    image: '/images/room.jpg',
     description: 'Clean lines and natural light.',
   },
   {
     id: 3,
     title: 'Luxury Bedroom',
     category: 'Bedroom',
-    image: '/images/bedroom.jpg',
+    image: '/images/bed_room3.JPG',
     description: 'Plush textures and ambient lighting.',
   },
 ];
@@ -64,7 +63,7 @@ export default function ProjectsSection() {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-full border transition-all duration-200 ${
+              className={`px-4 py-2 rounded-full border transition-all duration-300 ease-linear ${
                 selectedCategory === cat
                   ? 'bg-[#994C12] text-white border-[#994C12]'
                   : 'text-gray-700 border-gray-300 hover:border-[#994C12] hover:text-[#994C12]'

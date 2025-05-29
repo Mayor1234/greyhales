@@ -18,7 +18,7 @@ const Header = () => {
         <Menu />
         <div className="w-fit flex items-center justify-center md:justify-end">
           <button className="bg-white text-[#994C12] font-semibold text-xs px-[6px] py-[6px] md:text-[16.26px] md:px-[27.1px] md:py-[12.2px] w-fit rounded-full font-poppins border border-button shadow hover:bg-[#fff2e6] transition-all duration-300 ease-in-out cursor-pointer">
-            +234 818 444 1404
+            +234 90032250674
           </button>
         </div>
         <div className="flex items-center justify-center flex-col lg:hidden">

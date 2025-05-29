@@ -50,7 +50,7 @@ export default function FooterSection() {
           <h4 className="text-lg font-semibold mb-3">Contact</h4>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>Email: hello@greyhales.com</li>
-            <li>Phone: +1 (234) 567-890</li>
+            <li>Phone: +234 90032250674</li>
             <li>Location: Lagos, Nigeria</li>
           </ul>
         </div>
